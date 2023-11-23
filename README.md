@@ -1,5 +1,5 @@
 # scRNAseq_pipeline
-Taking raw sequencing files and taking them through a pipeline until visualising cell clusters
+Taking raw single cell-sequencing files through a workflow until cell clusters can be visualised
 
 # Characterising the splenic cell populations in the Atlantic cod using scRNAseq
 Here I provide example scripts used to analyse scRNAseq data in order to characterise splenic cells of the Atlantic cod, a non-model organism.
