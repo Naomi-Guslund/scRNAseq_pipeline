@@ -5,11 +5,11 @@ Taking raw sequencing files and taking them through a pipeline until visualising
 Here I provide example scripts used to analyse scRNAseq data in order to characterise splenic cells of the Atlantic cod, a non-model organism.
 Order of scripts provided:
 1) From_fastq_to_Digital_expression_matrix - bash script
-2) LoadingData.html 
-3) PreprocessingWorkflow_DimensionReduction. html 
+2) LoadingData.html - to view, download the file and open in your preferred directory
+3) PreprocessingWorkflow_DimensionReduction.html -to view, download the file and open in your preferred directory
 
 ## Biological background
-Atlantic Cod (Gadus morhua) has lost the major histocompatibility complex class II presentation pathway. Identification and characterization of immune cell subsets is needed to understand how this alternative immune system functions. Here, we use single-cell RNA sequencing to examine the cellular heterogeneity in Atlantic cod spleen. We analysed spleens from 34 Atlantic cod at 12 timepoints during a vaccination and immune challenge study of V. anguillarum, thus capturing a broad immune status. The 3 files demonstrate how raw sequencing files are demultiplexed and aligned to the genome (From_fastq_to_Digital_expression_matrix), how data is loaded into R and organised into a seurat object (LoadingData.html). The final R script demonstrates how normalisation is carried out, how filtering of low quality cells are removed, and how cells can be visualised on a UMAP (PreprocessingWorkflow_DimensionReduction).
+Atlantic Cod (Gadus morhua) has lost the major histocompatibility complex class II presentation pathway. Identification and characterization of immune cell subsets is needed to understand how this alternative immune system functions. Here, we use single-cell RNA sequencing to examine the cellular heterogeneity in Atlantic cod spleen. We analysed spleens from 34 Atlantic cod at 12 timepoints during a vaccination and immune challenge study of V. anguillarum, thus capturing a broad immune status. The 3 files demonstrate how raw sequencing files are demultiplexed and aligned to the genome (From_fastq_to_Digital_expression_matrix), how data is loaded into R and organised into a seurat object (LoadingData.html). The final R script demonstrates how normalisation is carried out, how filtering of low quality cells are removed, and how cells can be visualised on a UMAP (PreprocessingWorkflow_DimensionReduction.html).
 
 ## Dataset
 The sequencing data is available at the ENA repository with Accession number PRJEB47815.
